@@ -1,0 +1,32 @@
+body {
+  background-color: #534666;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  padding: 50px;
+}
+
+.grid-item {
+  background-color: #cd7672;
+  border: 1px solid #dc8665;
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.winning-cell {
+  background-color: #eeb462;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.containerContainer,
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
